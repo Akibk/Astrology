@@ -6,11 +6,13 @@ h1 {
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
 	top: 0;
+	font-size: 2.5em;
 }
 
 body {
 	color: white;
-	background-color: darkblue;
+	background-color: black;
+	font-size: 1.2em;
 }
 
 
