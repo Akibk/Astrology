@@ -12,16 +12,16 @@
 	Have the naysayers and the doubters held you back? Do they tell you it's just a celebrity crush? Do they deny the real connections humans must all have with the universe?
 	</p>
 	<p>
-	After all, science has shown that everything vibrates you remember hearing that vibrations can resonate which means it sounds about right that you can resonate with the universe.
+	After all, science has shown that everything vibrates and you remember hearing that vibrations can resonate. This means it sounds about right that you can resonate with the universe.
 	</p>
 	<p>
 	Classical astrology separates people into "star signs". This ancient technology understood the vital connection between some things you can see in the night sky, the location of the earth's orbit around the sun when you were born, and whether your crush will finally take a hint you're not asking him out for coffee for the coffee.
 	</p>
 	<p>
-	Recent advances in astrology research have unearthed hitherto undiscovered star signs borrowing from personality theory in psychoanalysis, the best neuroscience. It turns out if you keep adding new categories and moving the boundaries, there is enough ambiguity to match experimental statistics.
+	Recent advances in astrology research have unearthed hitherto undiscovered star signs borrowing from personality theory in 'neuroscience'. It turns out if you keep adding new categories and moving the boundaries, there is enough ambiguity to match experimental statistics. 
 	</p>
 	<p>
-	This science is known as Quantum Astrology. Using these revolutionary techniques, astrologers can now pinpoint your exact vibrational mode individually tailored to you. We have spent millions in funding to find which pieces of information that correlate statistically with events in your life even if we're not sure why. No longer do we need birth dates to see if you will pass university exams. 
+	This science is known as Quantum Astrology. Using these revolutionary techniques, astrologers can now pinpoint your exact vibrational mode individually tailored to you. We have spent millions in funding to find which pieces of information that correlate statistically with events in your life with no research investigating why. Technology has moved past using only birth dates to figure out which university you should go to. 
 	</p>
 	<p>
 	Now click here to start the quiz!
@@ -29,12 +29,71 @@
 	</p>
 
 	<form class="hide">
-		<label> Birthday: </label><br>
+		<label> Birth date: </label>
 		<input type="date"><br>
-		<label><div class="tooltip">Credit Card Number: <span class="tooltiptext">Your credit card number is unique to you. Statistically (i.e. with science) it has been proven this number resonates with your lifeline in the universe.</span></div></label><br>
+		<label><div class="tooltip">Credit Card Number: <span class="tooltiptext">Your credit card number is unique to you. Statistically (i.e. with science) it has been proven this number resonates with your lifeline in the universe.</span></div></label>
 		<input type="text"><br>
 	</form><br>
 	<button class="hide" type = "button" onclick="result()">Submit</button><br>
 	<p id=freq></p>
-	<p id=res></p>
+	<p id=res></p><br>
+	
+	<button id="celeb" type="button" onclick="celeb_start()">Start Celebrity Compatibility Quiz</button><br>
+
+	<form class="hide2">
+		<label> Celeb Name: </label> <input type="text"></input><br>
+		<label> According to personality type theory, only a few static categories of humans exist and have always existed in time.</label><br><label>It has been proven the type is found by choosing options that gramatically complete the following sentence:</label><br><label>
+		"My celebrity is..." </label>
+		<select>
+			<option> a </option>
+			<option> an </option>
+			<option> the </option>
+			<option> haunting a </option>
+			<option> haunting an </option>
+			<option> majority shareholder in the</option>
+			<option> privy to the cosmic secrets of the</option>
+			<option> not allowed to talk about the </option>
+			<option> recklessly trying to hunt the </option>
+		</select>
+		<select>
+			<option> Nonbinary </option>
+			<option> Female </option>
+			<option> Male </option>
+			<option> Femme </option>
+			<option> Butch </option>
+			<option> Top </option>
+			<option> Bottom </option>
+			<option> Nacho </option>
+			<option> Alpha </option>
+			<option> Beta </option>
+			<option> Gamma </option>
+			<option> Sigma </option>
+			<option> Omega </option>
+			<option> Mpreg </option>
+		</select>
+		<select> 
+			<option> Boy </option>
+			<option> Girl </option>
+			<option> Lesbian </option>
+			<option> Person </option>
+			<option> anti-Boy </option>
+			<option> anti-Girl </option>
+			<option> anti-Lesbian </option>
+			<option> anti-Person </option>
+			<option> Goth </option>
+			<option> Jock </option>
+			<option> Nerd </option>
+			<option> Prep </option>
+			<option> Himbo (Female) </option>
+			<option> Himbo (Male) </option>
+			<option> Themperor </option>
+		</select> <br><br>
+
+	<label> Celeb's credit card number: </label>
+	<input type="text"></input><br>
+	</form>
+
+	<button class="hide2" type = "button" onclick="celeb_res()">Submit</button><br>
+	<p id=celeb_res></p>
+
 </body>
